@@ -21,7 +21,7 @@
     "host": "localhost",
     "register": true,
     "registerCycle": 5000,
-	"hubHost": 172.16.22.108,
+	"hubHost": 127.0.0.1,
     "hubPort": 4444
   }
 }

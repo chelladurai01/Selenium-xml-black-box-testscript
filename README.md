@@ -23,7 +23,7 @@ Attributes in xml file In testcases xml file
 3.element_location
         Need to specify the Xpath of the element need to click
         
-        element_location="MyAccount"
+        element_location=" //td[text()='19']"
        
 4.element_name 
         Now it's empty

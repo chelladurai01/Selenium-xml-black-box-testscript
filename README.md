@@ -13,37 +13,37 @@ Attributes in xml file In testcases xml file
 1.Actions
         Need to specify the actions need to be performed ,available actions are "click,textfield,visibletext,select,submit"
         
-        ex.action="click"
+        action="click"
         
 2.element_type
         Need to specify the type of the element
         
-        ex.element_type="link"
+        element_type="link"
         
 3.element_location
         Need to specify the Xpath of the element need to click
         
-        ex.element_location="MyAccount"
+        element_location="MyAccount"
        
 4.element_name 
-        now it's empty
+        Now it's empty
         
-        ex.element_name=""
+        element_name=""
       
 5.data_input
         Need to specify the input value for textfield
         
-        ex.data_input="55555"
+        data_input="55555"
       
 6.expected_result
         Need to specify the text that you need to verify wether it's available or not
         
-        ex.expected_result="Account Information"
+        expected_result="Account Information"
       
 7.waittime_ms
         Need to specify the waiting time before the actions to be performed
         
-        ex.waittime_ms="100"
+        waittime_ms="100"
 
 
 Types of actions and it's purpose
@@ -53,35 +53,35 @@ Types of actions and it's purpose
         this actions mandatory attributes are "action,element_type,element_location"
                      optional attributes is "waittime_ms"
   
-       ex. action="click"
+       action="click"
    
   b.Action "textfield" is used to click the text field and type the value in the field
   
          this actions mandatory attributes are "action,element_type,element_location,data_input"
                      optional attributes is "waittime_ms"
                      
-       ex. action= "textfield"
+         action= "textfield"
   
   c.Action "select" is used to select the value from dropdown list
   
          this actions mandatory attributes are "action,element_type,element_location,data_input"
                      optional attributes is "waittime_ms"
                      
-       ex. action= "select"
+         action= "select"
        
   d.Action "visibletext" is used to veify the expected text and actual text are same
   
          this actions mandatory attributes are "action,element_type,expected_result"
                      optional attributes is "waittime_ms"
                      
-       ex. action= "visibletext"
+         action= "visibletext"
        
    e.Action "submit" is used to submit the application forms
   
          this actions mandatory attributes are "action,element_type"
                      optional attributes is "waittime_ms"
                      
-       ex. action= "submit"
+         action= "submit"
        
        
        

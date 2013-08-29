@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teststeps>
+
+	<step action="click" element_type="link" element_location="HomePage"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="MyAccount"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="WishLists" element_name=""
+		data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="CreateWishLists"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="textfield" element_type="textbox" element_location="WishListName"
+		element_name="" data_input="SAM" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="SubmitWishLists"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="visibletext" element_type="text" element_location=""
+		element_name="" data_input="" expected_result="Wish List"
+		waittime_ms="" />
+</teststeps>

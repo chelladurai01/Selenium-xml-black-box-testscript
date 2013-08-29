@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teststeps>
+	<step action="click" element_type="link" element_location="HomePage"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="WeeklyDeals"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="Appliances"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="Refrigerators"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="SelectProduct"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="AddCart"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+</teststeps>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teststeps>
+	<step action="click" element_type="link" element_location="HomePage"
+		element_name="" data_input="" expected_result="" waittime_ms="5000" />
+	<step action="click" element_type="link"
+		element_location="SigninButton" element_name="5000"
+		data_input="" expected_result="" waittime_ms="" />
+	<step action="textfield" element_type="textbox" element_location="LoginUserName"
+		element_name="" data_input="Samson@gmail.com" expected_result=""
+		waittime_ms="" />
+	<step action="textfield" element_type="textbox" element_location="LoginPassword"
+		element_name="" data_input="Samson123" expected_result=""
+		waittime_ms="" />
+	<step action="click" element_type="button" element_location="LoginSubmitbutton"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="HomePage"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="visibletext" element_type="text" element_location=""
+		element_name="" data_input="" expected_result="Sign Out" waittime_ms="" />
+</teststeps>

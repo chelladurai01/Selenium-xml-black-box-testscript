@@ -1,0 +1,42 @@
+<environments>
+
+	<environment default="false" desc="DEV 1 environment" name="dev1">
+		<Server name="ApplicationServer">
+			<resolution>600x600</resolution>
+			<context>m/e/digital</context>
+			<port />
+			<application>m.bestbuy.com</application>
+			<protocol>http</protocol>
+		</Server>
+	</environment>
+	
+	<environment default="false" desc="DEV 1 environment" name="dev2">
+		<Server name="ApplicationServer">
+			<resolution>600x600</resolution>
+			<context>m/e/digital</context>
+			<port />
+			<application>m.bestbuy.com</application>
+			<protocol>http</protocol>	
+		</Server>
+	</environment>
+	
+	<environment default="false" desc="QA environment" name="qa1">
+		<Server name="ApplicationServer">
+			<resolution>600x600</resolution>
+			<context></context>
+			<port />
+			<application>m.bestbuy.com</application>
+			<protocol>http</protocol>
+		</Server>
+	</environment>
+	
+	<environment default="true" desc="QA environment" name="qa2">
+		<Server name="ApplicationServer">
+			<resolution>600x600</resolution>
+			<context></context>
+			<port />
+			<application>m.bestbuy.com</application>
+			<protocol>http</protocol>
+		</Server>
+	</environment>
+</environments>

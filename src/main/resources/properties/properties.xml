@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>	
+	
+	<entry key="SelectTestcasesToRun">//*/testcase[@run='true']/.</entry>
+	<entry key="SelectTestStepsToRun">//*/step</entry>
+	<entry key="TestcasesLocation">src/test/resources/testcases</entry>
+	<entry key="EnvironmentConfig">env-config.xml</entry>
+	<entry key="UIIdentifiers">src/main/resources/properties/UIIdentifiers.xml</entry>
+	
+			<!-- testcases xml file -->
+	<entry key="CreateAccount">CreateAccount.xml</entry>
+	<entry key="CreateWishList">CreateWishList.xml</entry>
+	<entry key="DealOfDay">DealOfDay.xml</entry>
+	<entry key="FeatureOffers">FeatureOffers.xml</entry>
+	<entry key="FindWishList">FindWishList.xml</entry>
+	<entry key="RecentlyViewedProducts">RecentlyViewedProducts.xml</entry>
+	<entry key="RecommendedProduct">RecommendedProduct.xml</entry>
+	<entry key="RemoveProduct">RemoveProduct.xml</entry>
+	<entry key="Search">Search.xml</entry>
+	<entry key="Signin">Signin.xml</entry>
+	<entry key="WeeklyDeals">WeeklyDeals.xml</entry>
+	<entry key="WriteReviews">WriteReviews.xml</entry>
+</properties>

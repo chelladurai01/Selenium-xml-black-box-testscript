@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="BBY_DIGITALCHANNELS" parallel="tests" thread-count="5"
+	verbose="3">
+
+	<test name="BBY_DIGITALCHANNELS" junit="false" preserve-order="true">
+		<parameter name="browser" value="chrome" />
+		<parameter name="platform" value="MAC" />
+		<classes>
+			<class name="com.bestbuy.digitalchannels.testcases.DigitalChannelsTest" />
+			<methods>
+				<include name="testCreateAccount" />
+				<include name="testSignin" />
+				<exclude name="testSearch" />
+				<exclude name="testWeeklyDeals" />
+				<exclude name="testFeatureOffers" />
+				<exclude name="testCreateWishList" />
+				<exclude name="testRecentlyViewedProducts" />
+				<exclude name="testRecommendedProduct" />
+				<exclude name="testRemoveProduct" />
+				<exclude name="testDealOfDay" />
+				<exclude name="testWriteReviews" />
+				<exclude name="testFindWishList" />
+			</methods>
+		</classes>
+	</test>
+
+	<test name="BBY_DIGITALCHANNELS_1" junit="false" preserve-order="true">
+		<parameter name="browser" value="firefox" />
+		<parameter name="platform" value="MAC" />
+		<classes>
+			<class name="com.bestbuy.digitalchannels.testcases.DigitalChannelsTest" />
+			<methods>
+				<exclude name="testCreateAccount" />
+				<include name="testSignin" />
+				<exclude name="testSearch" />
+				<exclude name="testWeeklyDeals" />
+				<exclude name="testFeatureOffers" />
+				<exclude name="testCreateWishList" />
+				<exclude name="testRecentlyViewedProducts" />
+				<exclude name="testRecommendedProduct" />
+				<exclude name="testRemoveProduct" />
+				<exclude name="testDealOfDay" />
+				<exclude name="testWriteReviews" />
+				<exclude name="testFindWishList" />
+			</methods>
+		</classes>
+	</test>
+
+
+
+</suite> 
+  

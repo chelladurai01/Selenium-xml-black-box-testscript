@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teststeps>
+	<step action="click" element_type="link" element_location="HomePage"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="RVPSelectProductToReview"
+		element_name="" data_input="" expected_result=""
+		waittime_ms="" />
+	<step action="click" element_type="link" element_location="SelectProductToReview"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="SelectSelectWriteReviews"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<!-- <step action="textfield" element_type="textbox" element_location="NickName"
+		element_name="" data_input="Energetic Sam" expected_result=""
+		waittime_ms="" /> -->
+	<step action="click" element_type="link" element_location="ProductRating"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="textfield" element_type="textbox" element_location="ReviewSummary"
+		element_name="" data_input="good product for the beginner "
+		expected_result="" waittime_ms="" />
+	<step action="textfield" element_type="textbox" element_location="MyReview"
+		element_name=""
+		data_input="good product for the beginner and easy to understood the features"
+		expected_result="" waittime_ms="" />
+	<step action="textfield" element_type="textbox"
+		element_location="MyEmail" element_name=""
+		data_input="Samson@gmail.com" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="Preview"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="ReviewSubmit" element_name=""
+		data_input="" expected_result="" waittime_ms="" />
+</teststeps>
+

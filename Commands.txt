@@ -1,0 +1,20 @@
+
+1.point the hub ip address in nodeconfig.json
+
+2.To start Hub:
+
+	java -jar drivers/selenium-server-standalone-2.33.0.jar -role hub -hubConfig hubconfig.json
+
+3.To start node:
+		
+		i.Start node without chrome driver
+		
+			java -jar selenium-server-standalone-2.33.0.jar -role node -nodeConfig nodeconfig.json
+
+		ii.To start node with chrome driver windows
+
+			java -Dwebdriver.chrome.driver=drivers/chromedriver/windows/chromedriver.exe -jar drivers/selenium-server-standalone-2.33.0.jar -role node -nodeConfig nodeconfig.json
+		
+		iii.To start node with chrome driver mac
+		
+			java -Dwebdriver.chrome.driver=drivers/chromedriver/mac/chromedriver -jar drivers/selenium-server-standalone-2.33.0.jar -role node -nodeConfig nodeconfig.json

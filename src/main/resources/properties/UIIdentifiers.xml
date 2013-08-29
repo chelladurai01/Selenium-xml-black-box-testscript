@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>	
+		<!-- Home UI elements -->
+	<entry key="HomePage">//header[@id='masthead']/a</entry>
+		<!--Create Account UI elements  -->
+	<entry key="MyAccount">//ul[@class='footer-list']/li[3]/a</entry>
+	<entry key="CreateAccount">//ul[@id='checkout-method-list']/li</entry>
+	<entry key="FirstName">//input[@id='TxtFirstName']</entry>
+	<entry key="LastName">//input[@id='TxtLastName']</entry>
+	<entry key="EmailName">//input[@name='TxtEmail']</entry>
+	<entry key="ReEmailName">//input[@name='TxtEmailConfirm']</entry>
+	<entry key="Password">//input[@name='PwdPassword']</entry>
+	<entry key="RePassword">//input[@name='PwdPasswordConfirm']</entry>
+	<entry key="ZipCode">//input[@name='TxtPostalCode']</entry>
+	<entry key="Continue">//input[@value='CONTINUE']</entry>
+		<!--Login UI elements  -->
+	<entry key="SigninButton">//a[contains(text(),'Sign In')]</entry>
+	<entry key="LoginUserName">//input[@name='email2']</entry>
+	<entry key="LoginPassword">//input[@id='pwd1']</entry>
+	<entry key="LoginSubmitbutton">//input[@name='add']</entry>
+	<!--Search UI elements  -->
+	<entry key="SearchField">//input[@id='textfield']</entry>
+	<entry key="SearchButton">//input[@type='submit']</entry>
+	<!--Weekly Deals UI elements  -->
+	<entry key="WeeklyDeals">//a[contains(text(),'Weekly Deals')]</entry>
+	<entry key="Appliances">//a[contains(@href, 'subcategories/Appliances')]</entry>
+	<entry key="Refrigerators">//a[contains(@href, '../search/product/Appliances/Refrigerators')]</entry>
+	<entry key="SelectProduct">//div[2]/div/div/div/a</entry>
+	<entry key="AddCart">//input[@value='Add to Cart']</entry>
+	<!--Featured Offers UI elements  -->
+	<entry key="FeaturedOffers">//a[contains(text(),'Featured Offers')]</entry>
+	<entry key="SelectOffers">//div[@id='Featuredlist']/ul/li[2]/a/span</entry>
+	<!--Wish Lists UI elements  --> 
+	<entry key="WishLists">//a[contains(text(),'Wish Lists')]</entry>
+	<entry key="CreateWishLists">//a[contains(@href, '/m/e/wishlist/createoreditwishlist.jsp?action=create')]</entry>
+	<entry key="WishListName">//input[@id='listname']</entry>
+	<entry key="SubmitWishLists">//img[@alt='Create a List']</entry>
+	<!--Remove Product UI elements  -->
+	<entry key="CartCounter">//a[@id='cart']</entry>
+	<entry key="RemoveProduct">//td[3]/input</entry>
+	<!--DealOfDay UI elements  -->
+	<entry key="DealofDay">//a[@id='deal_of_the_day']</entry>
+	<entry key="DDSelectProduct">//div[@id='products']/div/h1/a</entry>
+	<!--Recommended Products UI elements  -->
+	<entry key="RecommendedProducts">//a[contains(text(),'Recommended Products')]</entry>
+	<entry key="RPSelectProduct">//ul[2]/div/div[2]/div/a</entry>
+	<!--Recently viewed Products UI elements  -->
+	<entry key="RecentlyViewedProducts">//section[@id='wrapper']/a[3]</entry>
+	<entry key="RVPSelectProduct">//div[2]/div/a</entry>
+	<!--Write REview UI elements  -->
+	<entry key="RVPSelectProductToReview">//section[@id='wrapper']/a[3]</entry>
+	<entry key="SelectProductToReview">//div[2]/div/a</entry>
+	<entry key="SelectSelectWriteReviews">//a[contains(text(),'Write a Review')]</entry>
+	<entry key="NickName">//input[@id='nickname']</entry>
+	<entry key="ProductRating">//input[@id='3.0']</entry>
+	<entry key="ReviewSummary">//input[@id='review']</entry>
+	<entry key="MyReview">//textarea[@id='myreview']</entry>
+	<entry key="MyEmail">//input[@id='notification']</entry>
+	<entry key="Preview">//input[@value='Preview']</entry>
+	<entry key="ReviewSubmit">//div/p/a/span[@class='submit']</entry>
+	<!--Recommended Products UI elements  -->
+	<entry key="FindWishlist">//a[contains(text(),'Find a Wishlist')]</entry>
+	<entry key="WishListNumber">//input[@name='listNumber']</entry>
+	<entry key="WishListSearch">//input[@name='wishlist']</entry>
+</properties>

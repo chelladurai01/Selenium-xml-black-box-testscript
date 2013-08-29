@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teststeps>
+	<step action="click" element_type="link" element_location="HomePage"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="CartCounter"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+	<step action="click" element_type="link" element_location="RemoveProduct"
+		element_name="" data_input="" expected_result="" waittime_ms="" />
+</teststeps>

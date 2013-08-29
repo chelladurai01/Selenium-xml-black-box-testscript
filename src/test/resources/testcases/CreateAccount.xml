@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<teststeps>
+	<step action="click" element_type="link" element_location="MyAccount" element_name="" data_input=""  expected_result="" waittime_ms="100"  />
+	<step action= "click" element_type="link" element_location="CreateAccount" element_name="" data_input="" expected_result="" waittime_ms="1000"/>
+	<step action= "textfield" element_type="textbox" element_location="FirstName" element_name="" data_input="Sam" expected_result="" waittime_ms="500"/>
+	<step action= "textfield" element_type="textbox" element_location="LastName" element_name="" data_input="son" expected_result="" waittime_ms=""/>
+	<step action= "textfield" element_type="textbox" element_location="EmailName" element_name="" data_input="Samson@gmail.com" expected_result="" waittime_ms="" />
+	<step action= "textfield" element_type="textbox" element_location="ReEmailName" element_name="" data_input="Samson@gmail.com" expected_result="" waittime_ms="" />
+	<step action= "textfield" element_type="textbox" element_location="Password" element_name="" data_input="Samson123" expected_result="" waittime_ms=""/>
+	<step action= "textfield" element_type="textbox" element_location="RePassword" element_name="" data_input="Samson123" expected_result="" waittime_ms=""/>
+	<step action= "textfield" element_type="textbox" element_location="ZipCode" element_name="" data_input="55555" expected_result="" waittime_ms=""/>
+	<step action= "click" element_type="button" element_location="Continue" element_name="" data_input="" expected_result="" waittime_ms=""/>
+	<step action= "visibletext" element_type="text" element_location="" element_name="" data_input="" expected_result="Account Information" waittime_ms=""/>
+</teststeps>

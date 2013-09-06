@@ -3,7 +3,7 @@ Selenium-xml-black-box-testscript
 
 Selenium xml black box testscript
 
-1.In this testcases are reutrn in xml file 
+1.In this testcases are return in xml file 
 
 2.we need to specify the actions and it's values in the xml file
 
